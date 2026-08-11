@@ -1,8 +1,7 @@
 class Solution:
     def subarraySum(self, nums: List[int], k: int) -> int:
 
-        res = 0
-        curSum = 0
+        res = curSum= 0
         prefixSum = { 0 : 1}
         
         for n in nums:
